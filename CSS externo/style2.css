@@ -1,0 +1,38 @@
+* {
+    margin: 5px;
+    padding: 3px;
+    font-size: 15px;
+}
+
+body {
+    /* Configuração de fonte */
+    font-family: Arial;
+
+}
+
+#div-paragrafos {
+    color: rgb(255, 246, 240);
+    background-color: rgb(81, 0, 255);
+}
+
+.Longo {
+    color: rgb(255, 246, 240);
+    background: rgb(81, 0, 255);
+    ;
+}
+
+h1>b {
+    font-size: 30px;
+}
+
+#div-paragrafos>h2>p {
+    font-size: 14px;
+}
+
+#curso {
+    position: absolute;
+    height: 100px;
+    width: 250px;
+    top: 0px;
+    left: 75%;
+}

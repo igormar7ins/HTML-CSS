@@ -1,0 +1,63 @@
+/* Estilo aplicado nos elementos da seção body */
+body {
+    /* Configuração de fonte */
+    font-family: Arial;
+    /* alihamento de texto centralizado */
+    text-align: center;
+    color: rgb(81, 0, 255);
+    background-color: white;
+    /* Reset the margem e pandding */
+    padding: 0;
+    margin: 0;
+}
+
+/* estilos aplicados nos elementos da seção nav */
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 60px;
+    align-items: center;
+    border-bottom: 5px solid rgb(81, 0, 255);
+    ;
+}
+
+/* Estilo aplicado na lista da seção nav */
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+ul li {
+    margin-right: 75px;
+}
+
+ul li a {
+    color: rergb(81, 0, 255);
+
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+ul li a:hover {
+    color: rgb(81, 0, 255);
+
+}
+
+footer {
+    padding: 20px;
+    border-top: 5px solid rgb(81, 0, 255);
+
+    margin-top: 20px;
+}
+
+img1 {
+    border: 3px solid rgb(81, 0, 255);
+
+    height: 30px;
+    width: 110px;
+}
+
+#img-una {
+    width: 140px;
+    height: 45px;
+}
